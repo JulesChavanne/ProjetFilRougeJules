@@ -1,35 +1,105 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #041821;
+    margin: 0;
 }
 
 header {
-    background-color: #333;
-    color: #df4949;
-    text-align: center;
-    padding: 10px 0;
+    border: hsl(320, 60%, 99%); 
+    font-family: "Abril Fatface", serif;
+    font-size: 10px;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+    border-style: solid;
+    padding-left: 1%;
+    padding-right: 1%;
+
 }
 
-main {
-    color: rgb(180, 222, 111)
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+main{
+    padding: 0% 10% 0% 10%;
 }
 
-.gallery {
+.texte{
+    font-family: "Yeseva One", serif;
+    padding-top: 15px;
+}
+
+h1{
+    color: #FEFBFD;
+}
+
+h2 {
+    color: #FEFBFD;
+    font-size: 30px;
+}
+
+em {
+    color:#10DFAA;
+    font-style: normal;
+}
+
+p{
+    color: #44484f; 
+    font-size: 15px;
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+}
+
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0%;
+    padding-top: 15px;
 }
 
-.photo img {
+.grid-item{
+    padding: 4px;
+}
+
+img{
     width: 100%;
     height: auto;
 }
 
+.gallery{
+    padding-top: 5px;
+    width: 100%;
+}
+
+.categories{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.category-btn{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    background-color: #041821;
+    border-width: 0px;
+    color: #FEFBFD;
+}
+
+.active{
+
+    background-color: #10DFAA !important;
+}
+
 footer {
-    background-color: #333;
-    color: #201d7a;
+    color: #717171;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
     text-align: center;
-    padding: 10px 0;
+}
+
+.exo{
+    font-size: 9px;
+}
+
+.Social{
+    color: #ffb1ea;
 }
